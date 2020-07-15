@@ -1,0 +1,34 @@
+set nocompatible
+filetype off
+
+set history=500
+set laststatus=2
+
+set number
+set ruler
+
+set ignorecase
+set smartcase
+set hlsearch
+set incsearch
+
+set noerrorbells
+set novisualbell
+
+set noswapfile
+
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
+set noexpandtab
+
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+
+Plugin 'VundleVim/Vundle.vim'
+
+Plugin 'itchyny/lightline.vim'
+
+Plugin 'derekwyatt/vim-scala'
+call vundle#end()
+filetype plugin on 
